@@ -3,6 +3,10 @@ from PIL import Image
 import numpy as np
 import os
 
+"""
+自定义的鲜花数据集模块
+"""
+
 
 class FlowerDataset(utils.data.Dataset):
     def __init__(self, dataset_path='./dataset/processed', transform=None, train=True):
